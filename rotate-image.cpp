@@ -19,6 +19,8 @@ void rotate(vector<vector<int>>& matrix) {
                 swap(matrix[j][i],matrix[j][n-i-1]);
             }
         }
+        //for the above instead of running two loops 'reverse' function could be used
+        //eg:- reverse(matrix[i][j].begin(),matrix[i'][j'].end());
     }
 
 int main()
